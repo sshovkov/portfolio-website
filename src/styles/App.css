@@ -1,0 +1,24 @@
+:root {
+  --background-color: #FFFEF5;
+  --accent-color: #DAA3FF;
+  background-color: var(--background-color)
+}
+
+body {
+  font-family: "RobotoMono", serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+  justify-items: left;
+  padding-left: 130px;
+  width: 75%;
+  padding-bottom: 250px;
+}
+
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(../fonts/robotomono.woff2) format('woff');
+}

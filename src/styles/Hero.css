@@ -1,0 +1,42 @@
+.Hero {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-top: 100px;
+  width: 80%; 
+}
+
+.AnimationImage {
+  width: 200px;
+  height: 200px;
+}
+
+.EmailButton {
+  margin-right: 25px;
+  width: 218px;
+  height: 60px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--accent-color);
+  border-radius: 10px;
+  font-size: large;
+  font-family: "RobotoMono", serif;
+}
+
+.SocialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  color: var(--accent-color);
+}
+
+.SocialIcons a {
+  color: var(--accent-color);
+}
+
+.Hero h1 {
+  font-size: 86px;
+}

@@ -1,0 +1,27 @@
+.Experience {
+  display: flex;
+  flex-direction: grid;
+  width: 100%;
+  text-align: justify;
+  gap: 50px;
+  height: 250px;
+}
+
+.Tabs h3 {
+  width: 180px;
+  cursor: pointer;
+  border-right: 4px solid transparent;
+}
+
+.Tabs h3.active {
+  border-right-color: #daa3ff;
+}
+
+.RoleDescription p {
+    opacity: 0.6;
+}
+
+.RoleDescription li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
